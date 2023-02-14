@@ -1,0 +1,443 @@
+14-02-2023 15:27:55 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1288_INDEX01"
+DETAIL:  Key ("CODIGO")=(0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX01" ON "SCH"."ARQ1288" USING btree ("CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:27:58 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1288_INDEX02"
+DETAIL:  Key ("CCI", "CODIGO")=(21381, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX02" ON "SCH"."ARQ1288" USING btree ("CCI", "CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:00 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1288_INDEX03"
+DETAIL:  Key ("CCP_TRANSFERIDO", "CODIGO")=(664369, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX03" ON "SCH"."ARQ1288" USING btree ("CCP_TRANSFERIDO", "CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:04 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1480_INDEX01"
+DETAIL:  Key ("CD_AVA_ALU")=(199533) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ARQ1480_INDEX01" ON "SCH"."ARQ1480" USING btree ("CD_AVA_ALU")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:06 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1480_INDEX02_ALUNO_DISCIPLINA"
+DETAIL:  Key ("CD_ALU_TUR", "CD_DIS_MAT")=(46693, 14645) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ARQ1480_INDEX02_ALUNO_DISCIPLINA" ON "SCH"."ARQ1480" USING btree ("CD_ALU_TUR", "CD_DIS_MAT")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:11 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1562_INDEX01"
+DETAIL:  Key ("NR_JOB", "CODIGO")=(260828, 83323151) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ARQ1562_INDEX01" ON "SCH"."ARQ1562" USING btree ("NR_JOB", "CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:13 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1562_INDEX02"
+DETAIL:  Key ("CD_SUBCENT", "CODIGO", "NR_JOB")=(1, 8111, 260829) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1562_INDEX02" ON "SCH"."ARQ1562" USING btree ("CD_SUBCENT", "CODIGO", "NR_JOB")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:22 - (psycopg2.errors.UniqueViolation) could not create unique index "ATIV_INDEX02"
+DETAIL:  Key ("NOME")=(Outras atividades de servicos prestados principalmente as empresas nao especificadas anteriormente) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX02" ON "SCH"."ATIV" USING btree ("NOME")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:24 - (psycopg2.errors.UniqueViolation) could not create unique index "ATIV_INDEX03"
+DETAIL:  Key ("TIPO_PRESTACAO", "NOME")=(, Outras atividades de servicos prestados principalmente as empresas nao especificadas anteriormente) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX03" ON "SCH"."ATIV" USING btree ("TIPO_PRESTACAO", "NOME")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:43 - (psycopg2.errors.UniqueViolation) could not create unique index "CERTIDAO_INDEX01"
+DETAIL:  Key ("COD_CERTIDAO")=(1052091124) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CERTIDAO_INDEX01" ON "SCH"."CERTIDAO" USING btree ("COD_CERTIDAO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:45 - (psycopg2.errors.UniqueViolation) could not create unique index "CERTIDAO_INDEX02"
+DETAIL:  Key ("DATA_EMISSAO", "USUARIO", "COD_CERTIDAO")=(2021-11-13, 999990, 11402103122) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CERTIDAO_INDEX02" ON "SCH"."CERTIDAO" USING btree ("DATA_EMISSAO", "USUARIO", "COD_CERTIDAO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:48 - (psycopg2.errors.UniqueViolation) could not create unique index "PATRIMON_INDEX00"
+DETAIL:  Key ("RECNUM")=(3724) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX00" ON "SCH"."PATRIMON" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:28:54 - (psycopg2.errors.UniqueViolation) could not create unique index "PATRIMON_INDEX03"
+DETAIL:  Key ("NR_TOMBAM_ANT1", "RECNUM")=( , 6702) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX03" ON "SCH"."PATRIMON" USING btree ("NR_TOMBAM_ANT1", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:07 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1147_INDEX00"
+DETAIL:  Key ("RECNUM")=(4609) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX00" ON "SCH"."ARQ1147" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:22 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1234_INDEX02"
+DETAIL:  Key ("ID_ARQ1234")=(531) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1234_INDEX02" ON "SCH"."ARQ1234" USING btree ("ID_ARQ1234")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:24 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1279_INDEX00"
+DETAIL:  Key ("RECNUM")=(365) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1279_INDEX00" ON "SCH"."ARQ1279" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:31 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1399_INDEX01"
+DETAIL:  Key ("CD_FAL_ALU")=(31753) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1399_INDEX01" ON "SCH"."ARQ1399" USING btree ("CD_FAL_ALU")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:39 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1429_INDEX02"
+DETAIL:  Key ("CD_MAT_CUR", "CD_MEC_DIS")=(1892, 5) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1429_INDEX02" ON "SCH"."ARQ1429" USING btree ("CD_MAT_CUR", "CD_MEC_DIS")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:42 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1500_INDEX00"
+DETAIL:  Key ("RECNUM")=(67547) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1500_INDEX00" ON "SCH"."ARQ1500" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:53 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ1503_INDEX02"
+DETAIL:  Key ("CD_GRUPO", "CD_PRODUTO")=(0, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1503_INDEX02" ON "SCH"."ARQ1503" USING btree ("CD_GRUPO", "CD_PRODUTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:29:59 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ815_INDEX01"
+DETAIL:  Key ("NR_CGC_CPF", "CD_ATIV")=(6035167000174, 130) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ815_INDEX01" ON "SCH"."ARQ815" USING btree ("NR_CGC_CPF", "CD_ATIV")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:30:02 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ899_INDEX00"
+DETAIL:  Key ("RECNUM")=(80708) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ899_INDEX00" ON "SCH"."ARQ899" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:30:09 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ914_INDEX01"
+DETAIL:  Key ("FICHA", "NR_PRONTUARIO")=(8937, 15832) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ914_INDEX01" ON "SCH"."ARQ914" USING btree ("FICHA", "NR_PRONTUARIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:30:15 - (psycopg2.errors.UniqueViolation) could not create unique index "ARQ936_INDEX02"
+DETAIL:  Key ("DESCRICAO")=(ASSOCIAÇÃO PRIVADA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ936_INDEX02" ON "SCH"."ARQ936" USING btree ("DESCRICAO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:30:41 - (psycopg2.errors.UniqueViolation) could not create unique index "CADAFA_INDEX02"
+DETAIL:  Key ("MATRICULA", "ID_AFAST", "DATA_INICIO", "DATA_TERMINO")=(32216, 12, 2013-07-01, 2014-01-01) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CADAFA_INDEX02" ON "SCH"."CADAFA" USING btree ("MATRICULA", "ID_AFAST", "DATA_INICIO", "DATA_TERMINO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:30:54 - (psycopg2.errors.UniqueViolation) could not create unique index "CIDADE_INDEX03"
+DETAIL:  Key ("CD_UF", "DS_CIDADE")=(GO, MAURILANDIA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX03" ON "SCH"."CIDADE" USING btree ("CD_UF", "DS_CIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:30:58 - (psycopg2.errors.UniqueViolation) could not create unique index "CONTRATO_INDEX00"
+DETAIL:  Key ("RECNUM")=(5460) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CONTRATO_INDEX00" ON "SCH"."CONTRATO" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:31:08 - (psycopg2.errors.UniqueViolation) could not create unique index "ITEM_AV_INDEX02"
+DETAIL:  Key ("DUAM", "PARCELA")=(696220, 0) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ITEM_AV_INDEX02" ON "SCH"."ITEM_AV" USING btree ("DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:31:14 - (psycopg2.errors.UniqueViolation) could not create unique index "LOCALMOX_INDEX02"
+DETAIL:  Key ("DS_LOCAL")=(USF DNA NICOLINA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "LOCALMOX_INDEX02" ON "SCH"."LOCALMOX" USING btree ("DS_LOCAL")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:31:21 - (psycopg2.errors.UniqueViolation) could not create unique index "MODALID_INDEX02"
+DETAIL:  Key ("DS_MODALIDADE")=(NAO SE APLICA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "MODALID_INDEX02" ON "SCH"."MODALID" USING btree ("DS_MODALIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:31:27 - (psycopg2.errors.UniqueViolation) could not create unique index "REQLOG_INDEX01"
+DETAIL:  Key ("CD_REQLOG")=(265547) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "REQLOG_INDEX01" ON "SCH"."REQLOG" USING btree ("CD_REQLOG")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:31:46 - (psycopg2.errors.UniqueViolation) could not create unique index "TIPOAVIS_INDEX02"
+DETAIL:  Key ("DS_TIPOAVI")=(TAXA DE FISCALIZ. E VIG. SANITARIA ) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX02" ON "SCH"."TIPOAVIS" USING btree ("DS_TIPOAVI")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:31:59 - (psycopg2.errors.UniqueViolation) could not create unique index "TIPORETE_INDEX02"
+DETAIL:  Key ("DS_TIPORETE")=(SALARIO MATERNIDADE-INSS) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX02" ON "SCH"."TIPORETE" USING btree ("DS_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)/n14-02-2023 15:47:58 - ERROR - CREATE UNIQUE INDEX "ARQ1288_INDEX01" ON "SCH"."ARQ1288" USING btree ("CODIGO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1288_INDEX01"
+DETAIL:  Key ("CODIGO")=(0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX01" ON "SCH"."ARQ1288" USING btree ("CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:00 - ERROR - CREATE UNIQUE INDEX "ARQ1288_INDEX02" ON "SCH"."ARQ1288" USING btree ("CCI", "CODIGO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1288_INDEX02"
+DETAIL:  Key ("CCI", "CODIGO")=(21381, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX02" ON "SCH"."ARQ1288" USING btree ("CCI", "CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:03 - ERROR - CREATE UNIQUE INDEX "ARQ1288_INDEX03" ON "SCH"."ARQ1288" USING btree ("CCP_TRANSFERIDO", "CODIGO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1288_INDEX03"
+DETAIL:  Key ("CCP_TRANSFERIDO", "CODIGO")=(664369, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX03" ON "SCH"."ARQ1288" USING btree ("CCP_TRANSFERIDO", "CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:07 - ERROR - CREATE UNIQUE INDEX "ARQ1480_INDEX01" ON "SCH"."ARQ1480" USING btree ("CD_AVA_ALU")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1480_INDEX01"
+DETAIL:  Key ("CD_AVA_ALU")=(225405) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ARQ1480_INDEX01" ON "SCH"."ARQ1480" USING btree ("CD_AVA_ALU")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:09 - ERROR - CREATE UNIQUE INDEX "ARQ1480_INDEX02_ALUNO_DISCIPLINA" ON "SCH"."ARQ1480" USING btree ("CD_ALU_TUR", "CD_DIS_MAT")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1480_INDEX02_ALUNO_DISCIPLINA"
+DETAIL:  Key ("CD_ALU_TUR", "CD_DIS_MAT")=(45245, 14448) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ARQ1480_INDEX02_ALUNO_DISCIPLINA" ON "SCH"."ARQ1480" USING btree ("CD_ALU_TUR", "CD_DIS_MAT")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:13 - ERROR - CREATE UNIQUE INDEX "ARQ1562_INDEX01" ON "SCH"."ARQ1562" USING btree ("NR_JOB", "CODIGO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1562_INDEX01"
+DETAIL:  Key ("NR_JOB", "CODIGO")=(259663, 11103104) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "ARQ1562_INDEX01" ON "SCH"."ARQ1562" USING btree ("NR_JOB", "CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:16 - ERROR - CREATE UNIQUE INDEX "ARQ1562_INDEX02" ON "SCH"."ARQ1562" USING btree ("CD_SUBCENT", "CODIGO", "NR_JOB")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1562_INDEX02"
+DETAIL:  Key ("CD_SUBCENT", "CODIGO", "NR_JOB")=(1, 84996199, 260828) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1562_INDEX02" ON "SCH"."ARQ1562" USING btree ("CD_SUBCENT", "CODIGO", "NR_JOB")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:24 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX02" ON "SCH"."ATIV" USING btree ("NOME")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ATIV_INDEX02"
+DETAIL:  Key ("NOME")=(Outras atividades de servicos prestados principalmente as empresas nao especificadas anteriormente) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX02" ON "SCH"."ATIV" USING btree ("NOME")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:26 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX03" ON "SCH"."ATIV" USING btree ("TIPO_PRESTACAO", "NOME")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ATIV_INDEX03"
+DETAIL:  Key ("TIPO_PRESTACAO", "NOME")=(, Outras atividades de servicos prestados principalmente as empresas nao especificadas anteriormente) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX03" ON "SCH"."ATIV" USING btree ("TIPO_PRESTACAO", "NOME")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:44 - ERROR - CREATE UNIQUE INDEX "CERTIDAO_INDEX01" ON "SCH"."CERTIDAO" USING btree ("COD_CERTIDAO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "CERTIDAO_INDEX01"
+DETAIL:  Key ("COD_CERTIDAO")=(11757115497) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "CERTIDAO_INDEX01" ON "SCH"."CERTIDAO" USING btree ("COD_CERTIDAO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:46 - ERROR - CREATE UNIQUE INDEX "CERTIDAO_INDEX02" ON "SCH"."CERTIDAO" USING btree ("DATA_EMISSAO", "USUARIO", "COD_CERTIDAO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "CERTIDAO_INDEX02"
+DETAIL:  Key ("DATA_EMISSAO", "USUARIO", "COD_CERTIDAO")=(2022-09-11, 999990, 11493115403) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "CERTIDAO_INDEX02" ON "SCH"."CERTIDAO" USING btree ("DATA_EMISSAO", "USUARIO", "COD_CERTIDAO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:48 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX00" ON "SCH"."PATRIMON" USING btree ("RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "PATRIMON_INDEX00"
+DETAIL:  Key ("RECNUM")=(3530) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX00" ON "SCH"."PATRIMON" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:48:54 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX03" ON "SCH"."PATRIMON" USING btree ("NR_TOMBAM_ANT1", "RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "PATRIMON_INDEX03"
+DETAIL:  Key ("NR_TOMBAM_ANT1", "RECNUM")=( , 6703) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX03" ON "SCH"."PATRIMON" USING btree ("NR_TOMBAM_ANT1", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:07 - ERROR - CREATE UNIQUE INDEX "ARQ1147_INDEX00" ON "SCH"."ARQ1147" USING btree ("RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1147_INDEX00"
+DETAIL:  Key ("RECNUM")=(4609) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX00" ON "SCH"."ARQ1147" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:22 - ERROR - CREATE UNIQUE INDEX "ARQ1234_INDEX02" ON "SCH"."ARQ1234" USING btree ("ID_ARQ1234")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1234_INDEX02"
+DETAIL:  Key ("ID_ARQ1234")=(531) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1234_INDEX02" ON "SCH"."ARQ1234" USING btree ("ID_ARQ1234")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:24 - ERROR - CREATE UNIQUE INDEX "ARQ1279_INDEX00" ON "SCH"."ARQ1279" USING btree ("RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1279_INDEX00"
+DETAIL:  Key ("RECNUM")=(365) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1279_INDEX00" ON "SCH"."ARQ1279" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:30 - ERROR - CREATE UNIQUE INDEX "ARQ1399_INDEX01" ON "SCH"."ARQ1399" USING btree ("CD_FAL_ALU")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1399_INDEX01"
+DETAIL:  Key ("CD_FAL_ALU")=(31753) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1399_INDEX01" ON "SCH"."ARQ1399" USING btree ("CD_FAL_ALU")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:39 - ERROR - CREATE UNIQUE INDEX "ARQ1429_INDEX02" ON "SCH"."ARQ1429" USING btree ("CD_MAT_CUR", "CD_MEC_DIS")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1429_INDEX02"
+DETAIL:  Key ("CD_MAT_CUR", "CD_MEC_DIS")=(1892, 5) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1429_INDEX02" ON "SCH"."ARQ1429" USING btree ("CD_MAT_CUR", "CD_MEC_DIS")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:41 - ERROR - CREATE UNIQUE INDEX "ARQ1500_INDEX00" ON "SCH"."ARQ1500" USING btree ("RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1500_INDEX00"
+DETAIL:  Key ("RECNUM")=(67547) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1500_INDEX00" ON "SCH"."ARQ1500" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:52 - ERROR - CREATE UNIQUE INDEX "ARQ1503_INDEX02" ON "SCH"."ARQ1503" USING btree ("CD_GRUPO", "CD_PRODUTO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ1503_INDEX02"
+DETAIL:  Key ("CD_GRUPO", "CD_PRODUTO")=(0, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ1503_INDEX02" ON "SCH"."ARQ1503" USING btree ("CD_GRUPO", "CD_PRODUTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:56 - ERROR - CREATE UNIQUE INDEX "ARQ815_INDEX01" ON "SCH"."ARQ815" USING btree ("NR_CGC_CPF", "CD_ATIV")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ815_INDEX01"
+DETAIL:  Key ("NR_CGC_CPF", "CD_ATIV")=(6035167000174, 130) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ815_INDEX01" ON "SCH"."ARQ815" USING btree ("NR_CGC_CPF", "CD_ATIV")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:49:58 - ERROR - CREATE UNIQUE INDEX "ARQ899_INDEX00" ON "SCH"."ARQ899" USING btree ("RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ899_INDEX00"
+DETAIL:  Key ("RECNUM")=(80708) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ899_INDEX00" ON "SCH"."ARQ899" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:50:04 - ERROR - CREATE UNIQUE INDEX "ARQ914_INDEX01" ON "SCH"."ARQ914" USING btree ("FICHA", "NR_PRONTUARIO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ914_INDEX01"
+DETAIL:  Key ("FICHA", "NR_PRONTUARIO")=(8937, 15832) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ914_INDEX01" ON "SCH"."ARQ914" USING btree ("FICHA", "NR_PRONTUARIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:50:11 - ERROR - CREATE UNIQUE INDEX "ARQ936_INDEX02" ON "SCH"."ARQ936" USING btree ("DESCRICAO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ARQ936_INDEX02"
+DETAIL:  Key ("DESCRICAO")=(ASSOCIAÇÃO PRIVADA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ARQ936_INDEX02" ON "SCH"."ARQ936" USING btree ("DESCRICAO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:50:38 - ERROR - CREATE UNIQUE INDEX "CADAFA_INDEX02" ON "SCH"."CADAFA" USING btree ("MATRICULA", "ID_AFAST", "DATA_INICIO", "DATA_TERMINO")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "CADAFA_INDEX02"
+DETAIL:  Key ("MATRICULA", "ID_AFAST", "DATA_INICIO", "DATA_TERMINO")=(32216, 12, 2013-07-01, 2014-01-01) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CADAFA_INDEX02" ON "SCH"."CADAFA" USING btree ("MATRICULA", "ID_AFAST", "DATA_INICIO", "DATA_TERMINO")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:50:51 - ERROR - CREATE UNIQUE INDEX "CIDADE_INDEX03" ON "SCH"."CIDADE" USING btree ("CD_UF", "DS_CIDADE")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "CIDADE_INDEX03"
+DETAIL:  Key ("CD_UF", "DS_CIDADE")=(GO, MAURILANDIA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX03" ON "SCH"."CIDADE" USING btree ("CD_UF", "DS_CIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:50:55 - ERROR - CREATE UNIQUE INDEX "CONTRATO_INDEX00" ON "SCH"."CONTRATO" USING btree ("RECNUM")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "CONTRATO_INDEX00"
+DETAIL:  Key ("RECNUM")=(5460) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "CONTRATO_INDEX00" ON "SCH"."CONTRATO" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:51:06 - ERROR - CREATE UNIQUE INDEX "ITEM_AV_INDEX02" ON "SCH"."ITEM_AV" USING btree ("DUAM", "PARCELA")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "ITEM_AV_INDEX02"
+DETAIL:  Key ("DUAM", "PARCELA")=(562102, 0) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "ITEM_AV_INDEX02" ON "SCH"."ITEM_AV" USING btree ("DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:51:12 - ERROR - CREATE UNIQUE INDEX "LOCALMOX_INDEX02" ON "SCH"."LOCALMOX" USING btree ("DS_LOCAL")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "LOCALMOX_INDEX02"
+DETAIL:  Key ("DS_LOCAL")=(USF DNA NICOLINA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "LOCALMOX_INDEX02" ON "SCH"."LOCALMOX" USING btree ("DS_LOCAL")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:51:19 - ERROR - CREATE UNIQUE INDEX "MODALID_INDEX02" ON "SCH"."MODALID" USING btree ("DS_MODALIDADE")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "MODALID_INDEX02"
+DETAIL:  Key ("DS_MODALIDADE")=(NAO SE APLICA) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "MODALID_INDEX02" ON "SCH"."MODALID" USING btree ("DS_MODALIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:51:23 - ERROR - CREATE UNIQUE INDEX "REQLOG_INDEX01" ON "SCH"."REQLOG" USING btree ("CD_REQLOG")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "REQLOG_INDEX01"
+DETAIL:  Key ("CD_REQLOG")=(357604) is duplicated.
+CONTEXT:  parallel worker
+
+[SQL: CREATE UNIQUE INDEX "REQLOG_INDEX01" ON "SCH"."REQLOG" USING btree ("CD_REQLOG")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:51:42 - ERROR - CREATE UNIQUE INDEX "TIPOAVIS_INDEX02" ON "SCH"."TIPOAVIS" USING btree ("DS_TIPOAVI")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "TIPOAVIS_INDEX02"
+DETAIL:  Key ("DS_TIPOAVI")=(TAXA DE FISCALIZ. E VIG. SANITARIA ) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX02" ON "SCH"."TIPOAVIS" USING btree ("DS_TIPOAVI")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)14-02-2023 15:51:55 - ERROR - CREATE UNIQUE INDEX "TIPORETE_INDEX02" ON "SCH"."TIPORETE" USING btree ("DS_TIPORETE")
+Indice Duplicado.
+
+(psycopg2.errors.UniqueViolation) could not create unique index "TIPORETE_INDEX02"
+DETAIL:  Key ("DS_TIPORETE")=(SALARIO MATERNIDADE-INSS) is duplicated.
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX02" ON "SCH"."TIPORETE" USING btree ("DS_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)

@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-import psycopg2
 import time
 
 def read_file_tables():

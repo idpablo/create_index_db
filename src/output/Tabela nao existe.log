@@ -1,0 +1,12 @@
+14-02-2023 15:30:21 - (psycopg2.errors.UndefinedColumn) column "DT_ABERTURA_INVD" does not exist
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX02" ON "SCH"."ATENDOS" USING btree ("CD_FORNECEDOR", "DT_ABERTURA_INVD", "HR_ABERTURA_INVD", "NR_ATENDIMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:50:17 - ERROR - CREATE UNIQUE INDEX "ATENDOS_INDEX02" ON "SCH"."ATENDOS" USING btree ("CD_FORNECEDOR", "DT_ABERTURA_INVD", "HR_ABERTURA_INVD", "NR_ATENDIMENTO")
+Tabela nao existe.
+
+(psycopg2.errors.UndefinedColumn) column "DT_ABERTURA_INVD" does not exist
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX02" ON "SCH"."ATENDOS" USING btree ("CD_FORNECEDOR", "DT_ABERTURA_INVD", "HR_ABERTURA_INVD", "NR_ATENDIMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)

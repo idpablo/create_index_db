@@ -1,0 +1,1068 @@
+14-02-2023 15:11:07 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX00" ON "SCH"."AUXIMP3" USING btree ("RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:09 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX01" ON "SCH"."AUXIMP3" USING btree ("NOME", "DATA_PGTO", "RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:11 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX02" ON "SCH"."AUXIMP3" USING btree ("DATA_PGTO", "NOME", "RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:13 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX03" ON "SCH"."AUXIMP3" USING btree ("INSCRICAO", "DATA_PGTO", "NOME", "RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:15 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX04" ON "SCH"."AUXIMP3" USING btree ("FISCAL", "DATA_PGTO", "RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:17 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX00" ON "SCH"."ITMATRES" USING btree ("RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:20 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX01" ON "SCH"."ITMATRES" USING btree ("TURMA", "NR_MATR_ALUNO", "CD_DISCIPLINA")
+Indice Existente.
+
+/n14-02-2023 15:11:22 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX02" ON "SCH"."ITMATRES" USING btree ("TURMA", "CD_DISCIPLINA", "NR_MATR_ALUNO")
+Indice Existente.
+
+/n14-02-2023 15:11:24 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX03" ON "SCH"."ITMATRES" USING btree ("NR_MATR_ALUNO", "TURMA", "CD_DISCIPLINA")
+Indice Existente.
+
+/n14-02-2023 15:11:26 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX04" ON "SCH"."ITMATRES" USING btree ("ARQ1295", "RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:11:28 - ERROR - CREATE UNIQUE INDEX "ARQ1288_INDEX00" ON "SCH"."ARQ1288" USING btree ("RECNUM")
+Indice Existente.
+
+/n14-02-2023 15:27:32 - (psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX00" ON "SCH"."AUXIMP3" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:34 - (psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX01" ON "SCH"."AUXIMP3" USING btree ("NOME", "DATA_PGTO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:36 - (psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX02" ON "SCH"."AUXIMP3" USING btree ("DATA_PGTO", "NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:38 - (psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX03" ON "SCH"."AUXIMP3" USING btree ("INSCRICAO", "DATA_PGTO", "NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:41 - (psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX04" ON "SCH"."AUXIMP3" USING btree ("FISCAL", "DATA_PGTO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:43 - (psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX00" ON "SCH"."ITMATRES" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:45 - (psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX01" ON "SCH"."ITMATRES" USING btree ("TURMA", "NR_MATR_ALUNO", "CD_DISCIPLINA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:47 - (psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX02" ON "SCH"."ITMATRES" USING btree ("TURMA", "CD_DISCIPLINA", "NR_MATR_ALUNO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:49 - (psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX03" ON "SCH"."ITMATRES" USING btree ("NR_MATR_ALUNO", "TURMA", "CD_DISCIPLINA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:51 - (psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX04" ON "SCH"."ITMATRES" USING btree ("ARQ1295", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:27:53 - (psycopg2.errors.DuplicateTable) relation "ARQ1288_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX00" ON "SCH"."ARQ1288" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:02 - (psycopg2.errors.DuplicateTable) relation "ARQ1480_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1480_INDEX00" ON "SCH"."ARQ1480" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:08 - (psycopg2.errors.DuplicateTable) relation "ARQ1562_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1562_INDEX00" ON "SCH"."ARQ1562" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:15 - (psycopg2.errors.DuplicateTable) relation "ALIQUOTA_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ALIQUOTA_INDEX01" ON "SCH"."ALIQUOTA" USING btree ("ATIV", "DATA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:17 - (psycopg2.errors.DuplicateTable) relation "ATIV_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX00" ON "SCH"."ATIV" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:20 - (psycopg2.errors.DuplicateTable) relation "ATIV_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX01" ON "SCH"."ATIV" USING btree ("CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:26 - (psycopg2.errors.DuplicateTable) relation "ATIV_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX04" ON "SCH"."ATIV" USING btree ("CD_SECAO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:28 - (psycopg2.errors.DuplicateTable) relation "ATIV_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX05" ON "SCH"."ATIV" USING btree ("CD_DIVISAO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:30 - (psycopg2.errors.DuplicateTable) relation "ATIV_INDEX06" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX06" ON "SCH"."ATIV" USING btree ("CD_GRUPO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:32 - (psycopg2.errors.DuplicateTable) relation "ATIV_INDEX07" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX07" ON "SCH"."ATIV" USING btree ("CD_CLASSE", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:35 - (psycopg2.errors.DuplicateTable) relation "CABFIS_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "CABFIS_INDEX02" ON "SCH"."CABFIS" USING btree ("ORDEM_SERVICO", "ATIV", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:37 - (psycopg2.errors.DuplicateTable) relation "PESSOA_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "PESSOA_INDEX05" ON "SCH"."PESSOA" USING btree ("ATIV", "NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:39 - (psycopg2.errors.DuplicateTable) relation "CERTIDAO_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "CERTIDAO_INDEX00" ON "SCH"."CERTIDAO" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:50 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX01" ON "SCH"."PATRIMON" USING btree ("NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:52 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX02" ON "SCH"."PATRIMON" USING btree ("DT_TOMBAMENTO", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:56 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX04" ON "SCH"."PATRIMON" USING btree ("NR_EMS", "NR_SEQ_KARDEX", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:28:58 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX05" ON "SCH"."PATRIMON" USING btree ("FICHA", "NR_PRE_EMPENHO", "NR_CADNL", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:01 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX06" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX06" ON "SCH"."PATRIMON" USING btree ("CD_SUBCENTRO", "DT_ULT_MOVIM", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:03 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX07" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX07" ON "SCH"."PATRIMON" USING btree ("CD_TRANSACAO", "DT_TRANSACAO", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:05 - (psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX08" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX08" ON "SCH"."PATRIMON" USING btree ("CD_PRODUTO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:09 - (psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX01" ON "SCH"."ARQ1147" USING btree ("ID_ARQ1147")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:12 - (psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX02" ON "SCH"."ARQ1147" USING btree ("FICHA", "DATA", "ID_ARQ1147")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:14 - (psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX03" ON "SCH"."ARQ1147" USING btree ("DATA", "FICHA", "ID_ARQ1147")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:16 - (psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX04" ON "SCH"."ARQ1147" USING btree ("ID_ARQ1145", "ID_ARQ1147", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:18 - (psycopg2.errors.DuplicateTable) relation "ARQ1234_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1234_INDEX00" ON "SCH"."ARQ1234" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:20 - (psycopg2.errors.DuplicateTable) relation "ARQ1234_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1234_INDEX01" ON "SCH"."ARQ1234" USING btree ("CD_GRUPOUSU", "CD_PROGRAMA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:26 - (psycopg2.errors.DuplicateTable) relation "ARQ1279_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1279_INDEX01" ON "SCH"."ARQ1279" USING btree ("CD_ODOMETRO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:29 - (psycopg2.errors.DuplicateTable) relation "ARQ1399_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1399_INDEX00" ON "SCH"."ARQ1399" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:33 - (psycopg2.errors.DuplicateTable) relation "ARQ1399_INDEX02" already exists
+
+[SQL: CREATE INDEX "ARQ1399_INDEX02" ON "SCH"."ARQ1399" USING btree ("CD_ALU_TUR")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:35 - (psycopg2.errors.DuplicateTable) relation "ARQ1429_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1429_INDEX00" ON "SCH"."ARQ1429" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:37 - (psycopg2.errors.DuplicateTable) relation "ARQ1429_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1429_INDEX01" ON "SCH"."ARQ1429" USING btree ("CD_DIS_MAT")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:44 - (psycopg2.errors.DuplicateTable) relation "ARQ1500_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1500_INDEX01" ON "SCH"."ARQ1500" USING btree ("EXE", "CODIGO_LEI")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:46 - (psycopg2.errors.DuplicateTable) relation "ARQ1500_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1500_INDEX02" ON "SCH"."ARQ1500" USING btree ("ID_ARQ1500")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:48 - (psycopg2.errors.DuplicateTable) relation "ARQ1503_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1503_INDEX00" ON "SCH"."ARQ1503" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:51 - (psycopg2.errors.DuplicateTable) relation "ARQ1503_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1503_INDEX01" ON "SCH"."ARQ1503" USING btree ("CD_ITEM_GRUPO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:29:56 - (psycopg2.errors.DuplicateTable) relation "ARQ815_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ815_INDEX00" ON "SCH"."ARQ815" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:04 - (psycopg2.errors.DuplicateTable) relation "ARQ899_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ899_INDEX01" ON "SCH"."ARQ899" USING btree ("NR_DOCUMENTO", "NR_EMS")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:06 - (psycopg2.errors.DuplicateTable) relation "ARQ914_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ914_INDEX00" ON "SCH"."ARQ914" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:11 - (psycopg2.errors.DuplicateTable) relation "ARQ936_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ936_INDEX00" ON "SCH"."ARQ936" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:13 - (psycopg2.errors.DuplicateTable) relation "ARQ936_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ936_INDEX01" ON "SCH"."ARQ936" USING btree ("CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:17 - (psycopg2.errors.DuplicateTable) relation "ATENDOS_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX00" ON "SCH"."ATENDOS" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:19 - (psycopg2.errors.DuplicateTable) relation "ATENDOS_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX01" ON "SCH"."ATENDOS" USING btree ("NR_ATENDIMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:23 - (psycopg2.errors.DuplicateTable) relation "ATENDOS_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX03" ON "SCH"."ATENDOS" USING btree ("ASSUNTO", "SUBASSU", "DT_ABERTURA", "HR_ABERTURA", "NR_ATENDIMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:26 - (psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX00" ON "SCH"."AUXIMP4" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:28 - (psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX01" ON "SCH"."AUXIMP4" USING btree ("NOME", "DATA_DIV", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:30 - (psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX02" ON "SCH"."AUXIMP4" USING btree ("DATA_DIV", "NOME", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:32 - (psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX03" ON "SCH"."AUXIMP4" USING btree ("INSCRICAO", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:34 - (psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX04" ON "SCH"."AUXIMP4" USING btree ("LIVRO", "PAG", "DUAM", "PARCELA", "RECEITA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:36 - (psycopg2.errors.DuplicateTable) relation "CADAFA_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "CADAFA_INDEX00" ON "SCH"."CADAFA" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:39 - (psycopg2.errors.DuplicateTable) relation "CADAFA_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "CADAFA_INDEX01" ON "SCH"."CADAFA" USING btree ("ID_CADAFA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:43 - (psycopg2.errors.DuplicateTable) relation "index_cadafa" already exists
+
+[SQL: CREATE INDEX index_cadafa ON "SCH"."CADAFA" USING btree ("MATRICULA", "ID_AFAST")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:45 - (psycopg2.errors.DuplicateTable) relation "ARQ1010_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1010_INDEX02" ON "SCH"."ARQ1010" USING btree ("CIDADE", "CONVENIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:47 - (psycopg2.errors.DuplicateTable) relation "CIDADE_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX00" ON "SCH"."CIDADE" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:49 - (psycopg2.errors.DuplicateTable) relation "CIDADE_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX01" ON "SCH"."CIDADE" USING btree ("CD_CIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:51 - (psycopg2.errors.DuplicateTable) relation "CIDADE_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX02" ON "SCH"."CIDADE" USING btree ("DS_CIDADE", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:30:56 - (psycopg2.errors.DuplicateTable) relation "FORNEC_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "FORNEC_INDEX03" ON "SCH"."FORNEC" USING btree ("NR_CGC_CPF", "CIDADE", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:00 - (psycopg2.errors.DuplicateTable) relation "CONTRATO_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "CONTRATO_INDEX01" ON "SCH"."CONTRATO" USING btree ("MATRICULA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:02 - (psycopg2.errors.DuplicateTable) relation "ITEM_AV_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITEM_AV_INDEX00" ON "SCH"."ITEM_AV" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:05 - (psycopg2.errors.DuplicateTable) relation "ITEM_AV_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITEM_AV_INDEX01" ON "SCH"."ITEM_AV" USING btree ("AVISO", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:10 - (psycopg2.errors.DuplicateTable) relation "LOCALMOX_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "LOCALMOX_INDEX00" ON "SCH"."LOCALMOX" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:12 - (psycopg2.errors.DuplicateTable) relation "LOCALMOX_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "LOCALMOX_INDEX01" ON "SCH"."LOCALMOX" USING btree ("CD_LOCAL")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:17 - (psycopg2.errors.DuplicateTable) relation "MODALID_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "MODALID_INDEX00" ON "SCH"."MODALID" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:19 - (psycopg2.errors.DuplicateTable) relation "MODALID_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "MODALID_INDEX01" ON "SCH"."MODALID" USING btree ("CD_MODALIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:23 - (psycopg2.errors.DuplicateTable) relation "REQLOG_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "REQLOG_INDEX00" ON "SCH"."REQLOG" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:29 - (psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX00" ON "SCH"."SALDKARD" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:31 - (psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX01" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "NR_ANO", "NR_MES", "CD_PRODUTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:33 - (psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX02" ON "SCH"."SALDKARD" USING btree ("NR_ANO", "NR_MES", "CD_LOCAL", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:35 - (psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX03" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "NR_ANO", "NR_MES", "CD_PRODUTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:37 - (psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX04" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "CD_PRODUTO", "NR_ANO", "NR_MES")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:40 - (psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX05" ON "SCH"."SALDKARD" USING btree ("NR_ANO", "CD_LOCAL", "CD_PRODUTO", "NR_MES")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:42 - (psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX00" ON "SCH"."TIPOAVIS" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:44 - (psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX01" ON "SCH"."TIPOAVIS" USING btree ("CD_TIPOAVI")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:48 - (psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX03" ON "SCH"."TIPOAVIS" USING btree ("CONTA_CONTABIL", "CD_TIPOAVI")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:50 - (psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX04" ON "SCH"."TIPOAVIS" USING btree ("TAB_RECEITA", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:52 - (psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX05" ON "SCH"."TIPOAVIS" USING btree ("DS_ABREVIADA", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:54 - (psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX00" ON "SCH"."TIPORETE" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:31:57 - (psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX01" ON "SCH"."TIPORETE" USING btree ("CD_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:01 - (psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX03" ON "SCH"."TIPORETE" USING btree ("CONTA_CONTABIL", "CD_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:03 - (psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX04" ON "SCH"."TIPORETE" USING btree ("IRRF", "CD_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:05 - (psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX00" ON "SCH"."USUARIOS" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:07 - (psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX01" ON "SCH"."USUARIOS" USING btree ("CD_USUARIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:09 - (psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX02" ON "SCH"."USUARIOS" USING btree ("DS_LOGIN")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:11 - (psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX03" ON "SCH"."USUARIOS" USING btree ("DS_NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:32:14 - (psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX04" ON "SCH"."USUARIOS" USING btree ("GRUPO", "CD_USUARIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)/n14-02-2023 15:47:35 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX00" ON "SCH"."AUXIMP3" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX00" ON "SCH"."AUXIMP3" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:37 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX01" ON "SCH"."AUXIMP3" USING btree ("NOME", "DATA_PGTO", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX01" ON "SCH"."AUXIMP3" USING btree ("NOME", "DATA_PGTO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:39 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX02" ON "SCH"."AUXIMP3" USING btree ("DATA_PGTO", "NOME", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX02" ON "SCH"."AUXIMP3" USING btree ("DATA_PGTO", "NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:41 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX03" ON "SCH"."AUXIMP3" USING btree ("INSCRICAO", "DATA_PGTO", "NOME", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX03" ON "SCH"."AUXIMP3" USING btree ("INSCRICAO", "DATA_PGTO", "NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:43 - ERROR - CREATE UNIQUE INDEX "AUXIMP3_INDEX04" ON "SCH"."AUXIMP3" USING btree ("FISCAL", "DATA_PGTO", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP3_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP3_INDEX04" ON "SCH"."AUXIMP3" USING btree ("FISCAL", "DATA_PGTO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:45 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX00" ON "SCH"."ITMATRES" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX00" ON "SCH"."ITMATRES" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:47 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX01" ON "SCH"."ITMATRES" USING btree ("TURMA", "NR_MATR_ALUNO", "CD_DISCIPLINA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX01" ON "SCH"."ITMATRES" USING btree ("TURMA", "NR_MATR_ALUNO", "CD_DISCIPLINA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:50 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX02" ON "SCH"."ITMATRES" USING btree ("TURMA", "CD_DISCIPLINA", "NR_MATR_ALUNO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX02" ON "SCH"."ITMATRES" USING btree ("TURMA", "CD_DISCIPLINA", "NR_MATR_ALUNO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:52 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX03" ON "SCH"."ITMATRES" USING btree ("NR_MATR_ALUNO", "TURMA", "CD_DISCIPLINA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX03" ON "SCH"."ITMATRES" USING btree ("NR_MATR_ALUNO", "TURMA", "CD_DISCIPLINA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:54 - ERROR - CREATE UNIQUE INDEX "ITMATRES_INDEX04" ON "SCH"."ITMATRES" USING btree ("ARQ1295", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITMATRES_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITMATRES_INDEX04" ON "SCH"."ITMATRES" USING btree ("ARQ1295", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:47:56 - ERROR - CREATE UNIQUE INDEX "ARQ1288_INDEX00" ON "SCH"."ARQ1288" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1288_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1288_INDEX00" ON "SCH"."ARQ1288" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:05 - ERROR - CREATE UNIQUE INDEX "ARQ1480_INDEX00" ON "SCH"."ARQ1480" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1480_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1480_INDEX00" ON "SCH"."ARQ1480" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:11 - ERROR - CREATE UNIQUE INDEX "ARQ1562_INDEX00" ON "SCH"."ARQ1562" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1562_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1562_INDEX00" ON "SCH"."ARQ1562" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:18 - ERROR - CREATE UNIQUE INDEX "ALIQUOTA_INDEX01" ON "SCH"."ALIQUOTA" USING btree ("ATIV", "DATA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ALIQUOTA_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ALIQUOTA_INDEX01" ON "SCH"."ALIQUOTA" USING btree ("ATIV", "DATA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:20 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX00" ON "SCH"."ATIV" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATIV_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX00" ON "SCH"."ATIV" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:22 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX01" ON "SCH"."ATIV" USING btree ("CODIGO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATIV_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX01" ON "SCH"."ATIV" USING btree ("CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:28 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX04" ON "SCH"."ATIV" USING btree ("CD_SECAO", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATIV_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX04" ON "SCH"."ATIV" USING btree ("CD_SECAO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:31 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX05" ON "SCH"."ATIV" USING btree ("CD_DIVISAO", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATIV_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX05" ON "SCH"."ATIV" USING btree ("CD_DIVISAO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:33 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX06" ON "SCH"."ATIV" USING btree ("CD_GRUPO", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATIV_INDEX06" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX06" ON "SCH"."ATIV" USING btree ("CD_GRUPO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:35 - ERROR - CREATE UNIQUE INDEX "ATIV_INDEX07" ON "SCH"."ATIV" USING btree ("CD_CLASSE", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATIV_INDEX07" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATIV_INDEX07" ON "SCH"."ATIV" USING btree ("CD_CLASSE", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:37 - ERROR - CREATE UNIQUE INDEX "CABFIS_INDEX02" ON "SCH"."CABFIS" USING btree ("ORDEM_SERVICO", "ATIV", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CABFIS_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "CABFIS_INDEX02" ON "SCH"."CABFIS" USING btree ("ORDEM_SERVICO", "ATIV", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:39 - ERROR - CREATE UNIQUE INDEX "PESSOA_INDEX05" ON "SCH"."PESSOA" USING btree ("ATIV", "NOME", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PESSOA_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "PESSOA_INDEX05" ON "SCH"."PESSOA" USING btree ("ATIV", "NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:41 - ERROR - CREATE UNIQUE INDEX "CERTIDAO_INDEX00" ON "SCH"."CERTIDAO" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CERTIDAO_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "CERTIDAO_INDEX00" ON "SCH"."CERTIDAO" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:50 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX01" ON "SCH"."PATRIMON" USING btree ("NR_TOMBAMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX01" ON "SCH"."PATRIMON" USING btree ("NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:52 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX02" ON "SCH"."PATRIMON" USING btree ("DT_TOMBAMENTO", "NR_TOMBAMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX02" ON "SCH"."PATRIMON" USING btree ("DT_TOMBAMENTO", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:56 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX04" ON "SCH"."PATRIMON" USING btree ("NR_EMS", "NR_SEQ_KARDEX", "NR_TOMBAMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX04" ON "SCH"."PATRIMON" USING btree ("NR_EMS", "NR_SEQ_KARDEX", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:48:58 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX05" ON "SCH"."PATRIMON" USING btree ("FICHA", "NR_PRE_EMPENHO", "NR_CADNL", "NR_TOMBAMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX05" ON "SCH"."PATRIMON" USING btree ("FICHA", "NR_PRE_EMPENHO", "NR_CADNL", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:01 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX06" ON "SCH"."PATRIMON" USING btree ("CD_SUBCENTRO", "DT_ULT_MOVIM", "NR_TOMBAMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX06" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX06" ON "SCH"."PATRIMON" USING btree ("CD_SUBCENTRO", "DT_ULT_MOVIM", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:03 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX07" ON "SCH"."PATRIMON" USING btree ("CD_TRANSACAO", "DT_TRANSACAO", "NR_TOMBAMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX07" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX07" ON "SCH"."PATRIMON" USING btree ("CD_TRANSACAO", "DT_TRANSACAO", "NR_TOMBAMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:05 - ERROR - CREATE UNIQUE INDEX "PATRIMON_INDEX08" ON "SCH"."PATRIMON" USING btree ("CD_PRODUTO", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "PATRIMON_INDEX08" already exists
+
+[SQL: CREATE UNIQUE INDEX "PATRIMON_INDEX08" ON "SCH"."PATRIMON" USING btree ("CD_PRODUTO", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:09 - ERROR - CREATE UNIQUE INDEX "ARQ1147_INDEX01" ON "SCH"."ARQ1147" USING btree ("ID_ARQ1147")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX01" ON "SCH"."ARQ1147" USING btree ("ID_ARQ1147")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:11 - ERROR - CREATE UNIQUE INDEX "ARQ1147_INDEX02" ON "SCH"."ARQ1147" USING btree ("FICHA", "DATA", "ID_ARQ1147")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX02" ON "SCH"."ARQ1147" USING btree ("FICHA", "DATA", "ID_ARQ1147")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:13 - ERROR - CREATE UNIQUE INDEX "ARQ1147_INDEX03" ON "SCH"."ARQ1147" USING btree ("DATA", "FICHA", "ID_ARQ1147")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX03" ON "SCH"."ARQ1147" USING btree ("DATA", "FICHA", "ID_ARQ1147")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:15 - ERROR - CREATE UNIQUE INDEX "ARQ1147_INDEX04" ON "SCH"."ARQ1147" USING btree ("ID_ARQ1145", "ID_ARQ1147", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1147_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1147_INDEX04" ON "SCH"."ARQ1147" USING btree ("ID_ARQ1145", "ID_ARQ1147", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:17 - ERROR - CREATE UNIQUE INDEX "ARQ1234_INDEX00" ON "SCH"."ARQ1234" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1234_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1234_INDEX00" ON "SCH"."ARQ1234" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:20 - ERROR - CREATE UNIQUE INDEX "ARQ1234_INDEX01" ON "SCH"."ARQ1234" USING btree ("CD_GRUPOUSU", "CD_PROGRAMA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1234_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1234_INDEX01" ON "SCH"."ARQ1234" USING btree ("CD_GRUPOUSU", "CD_PROGRAMA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:26 - ERROR - CREATE UNIQUE INDEX "ARQ1279_INDEX01" ON "SCH"."ARQ1279" USING btree ("CD_ODOMETRO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1279_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1279_INDEX01" ON "SCH"."ARQ1279" USING btree ("CD_ODOMETRO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:28 - ERROR - CREATE UNIQUE INDEX "ARQ1399_INDEX00" ON "SCH"."ARQ1399" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1399_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1399_INDEX00" ON "SCH"."ARQ1399" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:32 - ERROR - CREATE INDEX "ARQ1399_INDEX02" ON "SCH"."ARQ1399" USING btree ("CD_ALU_TUR")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1399_INDEX02" already exists
+
+[SQL: CREATE INDEX "ARQ1399_INDEX02" ON "SCH"."ARQ1399" USING btree ("CD_ALU_TUR")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:34 - ERROR - CREATE UNIQUE INDEX "ARQ1429_INDEX00" ON "SCH"."ARQ1429" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1429_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1429_INDEX00" ON "SCH"."ARQ1429" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:37 - ERROR - CREATE UNIQUE INDEX "ARQ1429_INDEX01" ON "SCH"."ARQ1429" USING btree ("CD_DIS_MAT")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1429_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1429_INDEX01" ON "SCH"."ARQ1429" USING btree ("CD_DIS_MAT")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:43 - ERROR - CREATE UNIQUE INDEX "ARQ1500_INDEX01" ON "SCH"."ARQ1500" USING btree ("EXE", "CODIGO_LEI")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1500_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1500_INDEX01" ON "SCH"."ARQ1500" USING btree ("EXE", "CODIGO_LEI")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:45 - ERROR - CREATE UNIQUE INDEX "ARQ1500_INDEX02" ON "SCH"."ARQ1500" USING btree ("ID_ARQ1500")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1500_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1500_INDEX02" ON "SCH"."ARQ1500" USING btree ("ID_ARQ1500")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:47 - ERROR - CREATE UNIQUE INDEX "ARQ1503_INDEX00" ON "SCH"."ARQ1503" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1503_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1503_INDEX00" ON "SCH"."ARQ1503" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:50 - ERROR - CREATE UNIQUE INDEX "ARQ1503_INDEX01" ON "SCH"."ARQ1503" USING btree ("CD_ITEM_GRUPO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1503_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1503_INDEX01" ON "SCH"."ARQ1503" USING btree ("CD_ITEM_GRUPO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:49:54 - ERROR - CREATE UNIQUE INDEX "ARQ815_INDEX00" ON "SCH"."ARQ815" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ815_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ815_INDEX00" ON "SCH"."ARQ815" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:00 - ERROR - CREATE UNIQUE INDEX "ARQ899_INDEX01" ON "SCH"."ARQ899" USING btree ("NR_DOCUMENTO", "NR_EMS")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ899_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ899_INDEX01" ON "SCH"."ARQ899" USING btree ("NR_DOCUMENTO", "NR_EMS")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:02 - ERROR - CREATE UNIQUE INDEX "ARQ914_INDEX00" ON "SCH"."ARQ914" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ914_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ914_INDEX00" ON "SCH"."ARQ914" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:07 - ERROR - CREATE UNIQUE INDEX "ARQ936_INDEX00" ON "SCH"."ARQ936" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ936_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ936_INDEX00" ON "SCH"."ARQ936" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:09 - ERROR - CREATE UNIQUE INDEX "ARQ936_INDEX01" ON "SCH"."ARQ936" USING btree ("CODIGO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ936_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ936_INDEX01" ON "SCH"."ARQ936" USING btree ("CODIGO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:13 - ERROR - CREATE UNIQUE INDEX "ATENDOS_INDEX00" ON "SCH"."ATENDOS" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATENDOS_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX00" ON "SCH"."ATENDOS" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:15 - ERROR - CREATE UNIQUE INDEX "ATENDOS_INDEX01" ON "SCH"."ATENDOS" USING btree ("NR_ATENDIMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATENDOS_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX01" ON "SCH"."ATENDOS" USING btree ("NR_ATENDIMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:19 - ERROR - CREATE UNIQUE INDEX "ATENDOS_INDEX03" ON "SCH"."ATENDOS" USING btree ("ASSUNTO", "SUBASSU", "DT_ABERTURA", "HR_ABERTURA", "NR_ATENDIMENTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ATENDOS_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "ATENDOS_INDEX03" ON "SCH"."ATENDOS" USING btree ("ASSUNTO", "SUBASSU", "DT_ABERTURA", "HR_ABERTURA", "NR_ATENDIMENTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:21 - ERROR - CREATE UNIQUE INDEX "AUXIMP4_INDEX00" ON "SCH"."AUXIMP4" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX00" ON "SCH"."AUXIMP4" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:25 - ERROR - CREATE UNIQUE INDEX "AUXIMP4_INDEX01" ON "SCH"."AUXIMP4" USING btree ("NOME", "DATA_DIV", "DUAM", "PARCELA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX01" ON "SCH"."AUXIMP4" USING btree ("NOME", "DATA_DIV", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:27 - ERROR - CREATE UNIQUE INDEX "AUXIMP4_INDEX02" ON "SCH"."AUXIMP4" USING btree ("DATA_DIV", "NOME", "DUAM", "PARCELA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX02" ON "SCH"."AUXIMP4" USING btree ("DATA_DIV", "NOME", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:29 - ERROR - CREATE UNIQUE INDEX "AUXIMP4_INDEX03" ON "SCH"."AUXIMP4" USING btree ("INSCRICAO", "DUAM", "PARCELA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX03" ON "SCH"."AUXIMP4" USING btree ("INSCRICAO", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:31 - ERROR - CREATE UNIQUE INDEX "AUXIMP4_INDEX04" ON "SCH"."AUXIMP4" USING btree ("LIVRO", "PAG", "DUAM", "PARCELA", "RECEITA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "AUXIMP4_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "AUXIMP4_INDEX04" ON "SCH"."AUXIMP4" USING btree ("LIVRO", "PAG", "DUAM", "PARCELA", "RECEITA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:34 - ERROR - CREATE UNIQUE INDEX "CADAFA_INDEX00" ON "SCH"."CADAFA" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CADAFA_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "CADAFA_INDEX00" ON "SCH"."CADAFA" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:36 - ERROR - CREATE UNIQUE INDEX "CADAFA_INDEX01" ON "SCH"."CADAFA" USING btree ("ID_CADAFA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CADAFA_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "CADAFA_INDEX01" ON "SCH"."CADAFA" USING btree ("ID_CADAFA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:40 - ERROR - CREATE INDEX index_cadafa ON "SCH"."CADAFA" USING btree ("MATRICULA", "ID_AFAST")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "index_cadafa" already exists
+
+[SQL: CREATE INDEX index_cadafa ON "SCH"."CADAFA" USING btree ("MATRICULA", "ID_AFAST")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:42 - ERROR - CREATE UNIQUE INDEX "ARQ1010_INDEX02" ON "SCH"."ARQ1010" USING btree ("CIDADE", "CONVENIO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ARQ1010_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "ARQ1010_INDEX02" ON "SCH"."ARQ1010" USING btree ("CIDADE", "CONVENIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:44 - ERROR - CREATE UNIQUE INDEX "CIDADE_INDEX00" ON "SCH"."CIDADE" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CIDADE_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX00" ON "SCH"."CIDADE" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:46 - ERROR - CREATE UNIQUE INDEX "CIDADE_INDEX01" ON "SCH"."CIDADE" USING btree ("CD_CIDADE")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CIDADE_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX01" ON "SCH"."CIDADE" USING btree ("CD_CIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:48 - ERROR - CREATE UNIQUE INDEX "CIDADE_INDEX02" ON "SCH"."CIDADE" USING btree ("DS_CIDADE", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CIDADE_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "CIDADE_INDEX02" ON "SCH"."CIDADE" USING btree ("DS_CIDADE", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:53 - ERROR - CREATE UNIQUE INDEX "FORNEC_INDEX03" ON "SCH"."FORNEC" USING btree ("NR_CGC_CPF", "CIDADE", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "FORNEC_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "FORNEC_INDEX03" ON "SCH"."FORNEC" USING btree ("NR_CGC_CPF", "CIDADE", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:50:59 - ERROR - CREATE UNIQUE INDEX "CONTRATO_INDEX01" ON "SCH"."CONTRATO" USING btree ("MATRICULA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "CONTRATO_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "CONTRATO_INDEX01" ON "SCH"."CONTRATO" USING btree ("MATRICULA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:02 - ERROR - CREATE UNIQUE INDEX "ITEM_AV_INDEX00" ON "SCH"."ITEM_AV" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITEM_AV_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITEM_AV_INDEX00" ON "SCH"."ITEM_AV" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:04 - ERROR - CREATE UNIQUE INDEX "ITEM_AV_INDEX01" ON "SCH"."ITEM_AV" USING btree ("AVISO", "DUAM", "PARCELA")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "ITEM_AV_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "ITEM_AV_INDEX01" ON "SCH"."ITEM_AV" USING btree ("AVISO", "DUAM", "PARCELA")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:08 - ERROR - CREATE UNIQUE INDEX "LOCALMOX_INDEX00" ON "SCH"."LOCALMOX" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "LOCALMOX_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "LOCALMOX_INDEX00" ON "SCH"."LOCALMOX" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:10 - ERROR - CREATE UNIQUE INDEX "LOCALMOX_INDEX01" ON "SCH"."LOCALMOX" USING btree ("CD_LOCAL")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "LOCALMOX_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "LOCALMOX_INDEX01" ON "SCH"."LOCALMOX" USING btree ("CD_LOCAL")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:14 - ERROR - CREATE UNIQUE INDEX "MODALID_INDEX00" ON "SCH"."MODALID" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "MODALID_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "MODALID_INDEX00" ON "SCH"."MODALID" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:16 - ERROR - CREATE UNIQUE INDEX "MODALID_INDEX01" ON "SCH"."MODALID" USING btree ("CD_MODALIDADE")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "MODALID_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "MODALID_INDEX01" ON "SCH"."MODALID" USING btree ("CD_MODALIDADE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:21 - ERROR - CREATE UNIQUE INDEX "REQLOG_INDEX00" ON "SCH"."REQLOG" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "REQLOG_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "REQLOG_INDEX00" ON "SCH"."REQLOG" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:25 - ERROR - CREATE UNIQUE INDEX "SALDKARD_INDEX00" ON "SCH"."SALDKARD" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX00" ON "SCH"."SALDKARD" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:27 - ERROR - CREATE UNIQUE INDEX "SALDKARD_INDEX01" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "NR_ANO", "NR_MES", "CD_PRODUTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX01" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "NR_ANO", "NR_MES", "CD_PRODUTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:29 - ERROR - CREATE UNIQUE INDEX "SALDKARD_INDEX02" ON "SCH"."SALDKARD" USING btree ("NR_ANO", "NR_MES", "CD_LOCAL", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX02" ON "SCH"."SALDKARD" USING btree ("NR_ANO", "NR_MES", "CD_LOCAL", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:31 - ERROR - CREATE UNIQUE INDEX "SALDKARD_INDEX03" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "NR_ANO", "NR_MES", "CD_PRODUTO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX03" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "NR_ANO", "NR_MES", "CD_PRODUTO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:33 - ERROR - CREATE UNIQUE INDEX "SALDKARD_INDEX04" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "CD_PRODUTO", "NR_ANO", "NR_MES")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX04" ON "SCH"."SALDKARD" USING btree ("CD_LOCAL", "CD_PRODUTO", "NR_ANO", "NR_MES")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:36 - ERROR - CREATE UNIQUE INDEX "SALDKARD_INDEX05" ON "SCH"."SALDKARD" USING btree ("NR_ANO", "CD_LOCAL", "CD_PRODUTO", "NR_MES")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "SALDKARD_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "SALDKARD_INDEX05" ON "SCH"."SALDKARD" USING btree ("NR_ANO", "CD_LOCAL", "CD_PRODUTO", "NR_MES")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:38 - ERROR - CREATE UNIQUE INDEX "TIPOAVIS_INDEX00" ON "SCH"."TIPOAVIS" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX00" ON "SCH"."TIPOAVIS" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:40 - ERROR - CREATE UNIQUE INDEX "TIPOAVIS_INDEX01" ON "SCH"."TIPOAVIS" USING btree ("CD_TIPOAVI")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX01" ON "SCH"."TIPOAVIS" USING btree ("CD_TIPOAVI")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:44 - ERROR - CREATE UNIQUE INDEX "TIPOAVIS_INDEX03" ON "SCH"."TIPOAVIS" USING btree ("CONTA_CONTABIL", "CD_TIPOAVI")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX03" ON "SCH"."TIPOAVIS" USING btree ("CONTA_CONTABIL", "CD_TIPOAVI")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:46 - ERROR - CREATE UNIQUE INDEX "TIPOAVIS_INDEX04" ON "SCH"."TIPOAVIS" USING btree ("TAB_RECEITA", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX04" ON "SCH"."TIPOAVIS" USING btree ("TAB_RECEITA", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:48 - ERROR - CREATE UNIQUE INDEX "TIPOAVIS_INDEX05" ON "SCH"."TIPOAVIS" USING btree ("DS_ABREVIADA", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPOAVIS_INDEX05" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPOAVIS_INDEX05" ON "SCH"."TIPOAVIS" USING btree ("DS_ABREVIADA", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:50 - ERROR - CREATE UNIQUE INDEX "TIPORETE_INDEX00" ON "SCH"."TIPORETE" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX00" ON "SCH"."TIPORETE" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:52 - ERROR - CREATE UNIQUE INDEX "TIPORETE_INDEX01" ON "SCH"."TIPORETE" USING btree ("CD_TIPORETE")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX01" ON "SCH"."TIPORETE" USING btree ("CD_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:57 - ERROR - CREATE UNIQUE INDEX "TIPORETE_INDEX03" ON "SCH"."TIPORETE" USING btree ("CONTA_CONTABIL", "CD_TIPORETE")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX03" ON "SCH"."TIPORETE" USING btree ("CONTA_CONTABIL", "CD_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:51:59 - ERROR - CREATE UNIQUE INDEX "TIPORETE_INDEX04" ON "SCH"."TIPORETE" USING btree ("IRRF", "CD_TIPORETE")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "TIPORETE_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "TIPORETE_INDEX04" ON "SCH"."TIPORETE" USING btree ("IRRF", "CD_TIPORETE")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:52:01 - ERROR - CREATE UNIQUE INDEX "USUARIOS_INDEX00" ON "SCH"."USUARIOS" USING btree ("RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX00" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX00" ON "SCH"."USUARIOS" USING btree ("RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:52:03 - ERROR - CREATE UNIQUE INDEX "USUARIOS_INDEX01" ON "SCH"."USUARIOS" USING btree ("CD_USUARIO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX01" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX01" ON "SCH"."USUARIOS" USING btree ("CD_USUARIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:52:05 - ERROR - CREATE UNIQUE INDEX "USUARIOS_INDEX02" ON "SCH"."USUARIOS" USING btree ("DS_LOGIN")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX02" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX02" ON "SCH"."USUARIOS" USING btree ("DS_LOGIN")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:52:07 - ERROR - CREATE UNIQUE INDEX "USUARIOS_INDEX03" ON "SCH"."USUARIOS" USING btree ("DS_NOME", "RECNUM")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX03" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX03" ON "SCH"."USUARIOS" USING btree ("DS_NOME", "RECNUM")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)14-02-2023 15:52:09 - ERROR - CREATE UNIQUE INDEX "USUARIOS_INDEX04" ON "SCH"."USUARIOS" USING btree ("GRUPO", "CD_USUARIO")
+Indice Existente.
+
+(psycopg2.errors.DuplicateTable) relation "USUARIOS_INDEX04" already exists
+
+[SQL: CREATE UNIQUE INDEX "USUARIOS_INDEX04" ON "SCH"."USUARIOS" USING btree ("GRUPO", "CD_USUARIO")
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
