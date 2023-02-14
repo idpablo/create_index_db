@@ -1,6 +1,9 @@
-necessidade do arquivo database.ini na pasta rais do script:
+Scripts de parser e ingestão de sql no banco de dados postgreSQL
+Criado e mantido por: Pablo Soares
 
-a estrutura do arquivo é a:
+# Necessidade do arquivo database.ini na pasta rais do script:
+
+# A estrutura do arquivo é a:
 
 [postgresql]
 host=0.0.0.0
@@ -8,3 +11,9 @@ port=5432
 database=schema
 user=postgres
 password=password
+
+# Dependencias
+
+pandas            1.5.3
+psycopg2          2.9.5
+SQLAlchemy        1.4.46
