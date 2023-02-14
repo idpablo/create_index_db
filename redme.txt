@@ -1,0 +1,10 @@
+necessidade do arquivo database.ini na pasta rais do script:
+
+a estrutura do arquivo é a:
+
+[postgresql]
+host=0.0.0.0
+port=5432
+database=schema
+user=postgres
+password=password
