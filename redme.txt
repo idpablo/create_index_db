@@ -17,3 +17,8 @@ password=password
 pandas            1.5.3
 psycopg2          2.9.5
 SQLAlchemy        1.4.46
+
+
+Execute:
+
+# pip install -r src/requirements.tx
